@@ -7,7 +7,9 @@ const App = () => {
       <div className="resume-container">
          {/* Header */}
          <header className="resume-header">
-            <h1 className="name">SACHIN YADAV</h1>
+            <h1 className="name" onClick={() => window.open('https://sachin-yadav.netlify.app/', '_blank')}>
+               SACHIN YADAV
+            </h1>
             <h4 className="name">MERN Developer</h4>
             <p>
                Bengaluru, KA(IN) | <a href="mailto:sachin2704.yadav@gmail.com">sachin2704.yadav@gmail.com</a> |{' '}
