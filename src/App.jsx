@@ -12,41 +12,74 @@ const App = () => {
           onClick={() =>
             window.open("https://sachin-yadav.netlify.app/", "_blank")
           }
+          style={{
+            cursor: "pointer",
+          }}
         >
           SACHIN YADAV
         </h1>
         <h4 className="name">MERN Developer</h4>
         <p>
-          Bengaluru, KA(IN) | +91 9321704313 | {" "}
+          Bengaluru, KA(IN) | +91 9321704313 |{" "}
           <a href="mailto:sachin2704.yadav@gmail.com">
             sachin2704.yadav@gmail.com
-          </a>{" "}
-          |{" "}
-          <FaGithub
+          </a>
+          <br />
+          <span
             style={{
-              cursor: "pointer",
-              marginTop: "2px",
-              marginRight: "0.5rem",
-              fontSize: "1.2rem",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginTop: "8px",
             }}
-            onClick={() =>
-              window.open("https://github.com/sachinyadav2704", "_blank")
-            }
-          />
-          <FaLinkedin
-            style={{
-              cursor: "pointer",
-              marginTop: "2px",
-              marginRight: "0.5rem",
-              fontSize: "1.2rem",
-            }}
-            onClick={() =>
-              window.open(
-                "https://www.linkedin.com/in/sachin-yadav-b57426141/",
-                "_blank"
-              )
-            }
-          />
+          >
+            <FaGithub
+              style={{
+                cursor: "pointer",
+                marginTop: "2px",
+                marginRight: "0.4rem",
+                fontSize: "1.2rem",
+              }}
+              onClick={() =>
+                window.open("https://github.com/sachinyadav2704", "_blank")
+              }
+            />{" "}
+            <span
+              onClick={() =>
+                window.open("https://github.com/sachinyadav2704", "_blank")
+              }
+              style={{
+                cursor: "pointer",
+              }}
+            >
+              https://github.com/sachinyadav2704
+            </span>{" "}
+            <FaLinkedin
+              style={{
+                cursor: "pointer",
+                marginTop: "2px",
+                marginRight: "0.4rem",
+                marginLeft: "1rem",
+                fontSize: "1.2rem",
+              }}
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/sachin-yadav-b57426141/",
+                  "_blank"
+                )
+              }
+            />
+            <span
+              onClick={() =>
+                window.open("https://github.com/sachinyadav2704", "_blank")
+              }
+              style={{
+                cursor: "pointer",
+              }}
+            >
+              https://www.linkedin.com/in/sachin-yadav-b57426141/
+            </span>
+          </span>
           {/* <SiLeetcode
                   style={{ cursor: 'pointer', marginTop: '2px', marginRight: '0.5rem', fontSize: '1.2rem' }}
                   onClick={() => window.open('https://leetcode.com/u/Sachin_Yadav_27/', '_blank')}
