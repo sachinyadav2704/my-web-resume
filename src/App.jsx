@@ -14,11 +14,11 @@ const App = () => {
           }
           style={{
             cursor: "pointer",
+            margin: "0.4rem",
           }}
         >
           SACHIN YADAV
         </h1>
-        <h4 className="name">MERN Developer</h4>
         <p>
           Bengaluru, KA(IN) | +91 9321704313 |{" "}
           <a href="mailto:sachin2704.yadav@gmail.com">
@@ -30,7 +30,7 @@ const App = () => {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              marginTop: "8px",
+              marginTop: "6px",
             }}
           >
             <FaGithub
@@ -92,61 +92,15 @@ const App = () => {
         <h2 className="section-title">Summary</h2>
         <div className="section-content">
           <p>
-            Results-driven MERN developer with over 4 years of expertise in
-            designing, developing, and optimizing scalable web applications.
-            Skilled in JavaScript, React.js, Node.js, MongoDB, and MySQL.
-            Consistently delivers high-performing solutions that enhance user
-            experiences and drive business growth. Experienced in mentoring
-            teams, integrating complex APIs, and implementing reusable
-            components to streamline development processes. Passionate about
-            leveraging cutting-edge technologies to deliver impactful solutions
-            in fast-paced environments.
-            {/* Results-driven MERN Developer with over 4 years of expertise in
-            designing, developing, and optimizing scalable web applications.
-            Skilled in JavaScript, React.js, Node.js, MongoDB, and MySQL. Proven
-            track record of delivering high-performing solutions that enhance
-            user experiences and drive business growth. Experienced in mentoring
-            teams, integrating complex APIs, and implementing reusable
-            components to streamline development. Passionate about leveraging
-            cutting-edge technologies to deliver impactful solutions in
-            fast-paced environments. */}
-            {/* Innovative and results-driven <b>MERN Developer</b> with over 4
-            years of expertise in designing, developing, and optimizing scalable
-            web applications. Proficient in JavaScript, React.js, Node.js,
-            MongoDB, and MySQL, with a proven track record of delivering
-            high-performing solutions that enhance user experiences and drive
-            business growth. Adept at mentoring teams, integrating complex APIs,
-            and implementing reusable components to streamline development.
-            Passionate about leveraging cutting-edge technologies to deliver
-            impactful solutions in fast-paced environments. */}
+            Results-driven MERN Developer with 4+ years of experience in
+            building scalable web applications, optimizing performance by 40%
+            and enhancing user engagement by 20%. Proficient in JavaScript,
+            React.js, Node.js, MongoDB, and MySQL, with expertise in API
+            integrations and reusable components, reducing development time by
+            30%. Skilled in mentoring teams and driving efficient, high-impact
+            solutions in fast-paced agile environments.
           </p>
         </div>
-      </section>
-
-      {/* Technical Skills Section */}
-      <section className="section">
-        <h2 className="section-title">Technical Skills</h2>
-        <ul className="bullet-list">
-          <li>
-            <b>Frontend - </b>React.js, Redux, TypeScript, JavaScript (ES6+),
-            React Native (Expo), HTML, CSS, REST API Integration
-          </li>
-          <li>
-            <b>Backend - </b>Node.js, Express.js, REST API Development
-          </li>
-          <li>
-            <b>Database - </b>MongoDB (NoSQL), MySQL
-          </li>
-          <li>
-            <b>Frameworks - </b>Ant Design, Material UI, Tailwind CSS
-          </li>
-          <li>
-            <b>Tools - </b>Git, Postman, DevOps, VS Code
-          </li>
-          <li>
-            <b>Others - </b>JWT, OAuth2.0, API Design
-          </li>
-        </ul>
       </section>
 
       {/* Work Experience Section */}
@@ -155,46 +109,44 @@ const App = () => {
         <div className="section-content">
           <div className="subsection">
             <p className="institution">
-              Jio Platforms Limited{" "}
+              Jio Platforms Limited - Node.js
               <span className="location" style={{ float: "inline-end" }}>
-                Aug 2020 – Present
+                Dec 2023 – Present
               </span>
             </p>
-            <p className="details">
+            {/* <p className="details">
               <strong>MERN Developer</strong>
-            </p>
+            </p> */}
             <ul className="bullet-list">
-              <li>
-                Orchestrated the design and development of scalable web
-                applications like Jio Unified Ads, Jio Reels, and Jio Fit,
-                delivering projects on time and exceeding performance
-                benchmarks.
-              </li>
-              <li>
-                Implemented reusable React.js components, cutting down redundant
-                code by 25% and improving UI consistency across all Jio web
-                platforms.
-                {/* Implemented reusable React.js components and advanced state
-                management using Redux, achieving a 25% reduction in development
-                time across projects. */}
-              </li>
               <li>
                 Spearheaded the custom error code integration across all JioFit
                 APIs, reducing debugging time by 50% and enhancing error
                 tracking efficiency.
-                {/* Spearheaded the integration of custom error codes across all
-                JioFit APIs, enhancing error tracking, debugging efficiency, and
-                system reliability. */}
-              </li>
-              <li>
-                Architected the backend workflows for projects like Jio Unified
-                Ads, optimizing API performance by 30% using Node.js,
-                Express.js, and MongoDB.
               </li>
               <li>
                 Enhanced user authentication systems by implementing OAuth2.0
                 and JWT, ensuring robust and secure access for millions of
                 users.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="section-content">
+          <div className="subsection">
+            <p className="institution">
+              Jio Platforms Limited - ReactJs
+              <span className="location" style={{ float: "inline-end" }}>
+                Aug 2020 – Nov 2023
+              </span>
+            </p>
+            {/* <p className="details">
+              <strong>MERN Developer</strong>
+            </p> */}
+            <ul className="bullet-list">
+              <li>
+                Implemented reusable React.js components, cutting down redundant
+                code by 25% and improving UI consistency across all Jio web
+                platforms.
               </li>
               <li>
                 Led the development of Jio Reels (Instreamo), including core
@@ -205,16 +157,10 @@ const App = () => {
                 Collaborated with cross-functional teams, ensuring agile
                 delivery of high-performing applications, increasing development
                 efficiency by 35%.
-                {/* Collaborated with cross-functional teams to design and deploy
-                high-performing, responsive user interfaces, driving a 20%
-                increase in customer satisfaction. */}
               </li>
               <li>
                 Mentored 3+ junior developers, ensuring adherence to best coding
                 practices and modern JavaScript (ES6+) standards.
-                {/* Mentored and guided junior developers on full-stack best
-                practices, modern JavaScript (ES6+), and code quality, fostering
-                a collaborative and high-performing team culture. */}
               </li>
             </ul>
           </div>
@@ -238,9 +184,9 @@ const App = () => {
               >
                 JioFit - Fitness App
               </span>
-              <span className="location" style={{ float: "inline-end" }}>
+              {/* <span className="location" style={{ float: "inline-end" }}>
                 Aug 2024 – Present
-              </span>
+              </span> */}
             </p>
             {/* <p className="details"></p> */}
             <ul className="bullet-list">
@@ -273,11 +219,10 @@ const App = () => {
               >
                 Jio Reels (Instreamo)
               </span>
-              <span className="location" style={{ float: "inline-end" }}>
+              {/* <span className="location" style={{ float: "inline-end" }}>
                 Jun 2023 – Aug 2024
-              </span>
+              </span> */}
             </p>
-            {/* <p className="details"></p> */}
             <ul className="bullet-list">
               <li>
                 A server-side ad insertion (SSAI) platform enabling seamless API
@@ -303,11 +248,10 @@ const App = () => {
               >
                 Jio Unified Ads
               </span>
-              <span className="location" style={{ float: "inline-end" }}>
+              {/* <span className="location" style={{ float: "inline-end" }}>
                 Feb 2021 – May 2023
-              </span>
+              </span> */}
             </p>
-            {/* <p className="details"></p> */}
             <ul className="bullet-list">
               <li>
                 A centralized platform enabling Jio users to create and manage
@@ -327,9 +271,9 @@ const App = () => {
           <div className="subsection">
             <p className="institution">
               JAMP
-              <span className="location" style={{ float: "inline-end" }}>
+              {/* <span className="location" style={{ float: "inline-end" }}>
                 Nov 2020 – Dec 2022
-              </span>
+              </span> */}
             </p>
             <ul className="bullet-list">
               <li>
@@ -348,64 +292,48 @@ const App = () => {
         </div>
       </section>
 
+      {/* Technical Skills Section */}
+      <section className="section">
+        <h2 className="section-title">Technical Skills</h2>
+        <ul className="bullet-list">
+          <li>
+            <b>Frontend - </b>React.js, Redux, TypeScript, JavaScript (ES6+),
+            React Native (Expo), HTML, CSS, REST API Integration
+          </li>
+          <li>
+            <b>Backend - </b>Node.js, Express.js, REST API Development
+          </li>
+          <li>
+            <b>Database - </b>MongoDB (NoSQL), MySQL
+          </li>
+          <li>
+            <b>Frameworks - </b>Ant Design, Material UI, Tailwind CSS
+          </li>
+          <li>
+            <b>Tools - </b>Git, Postman, DevOps, VS Code
+          </li>
+          <li>
+            <b>Others - </b>JWT, OAuth2.0, API Design
+          </li>
+        </ul>
+      </section>
+
       {/* Education Section */}
       <section className="section">
         <h2 className="section-title">Education</h2>
         <div className="section-content">
           <div className="subsection">
             <p className="institution">
-              SRM Institute of Science and Technology, Delhi NCR
+              SRM Institute of Science and Technology
               <span className="location" style={{ float: "inline-end" }}>
                 (Jul 2016 – Jun 2020)
               </span>
             </p>
             <p className="details">
-              BACHELOR OF TECHNOLOGY - <b>78%</b>
-            </p>
-          </div>
-          <div className="subsection">
-            <p className="institution">
-              SKD Academy School, Rajajipuram
-              <span className="location" style={{ float: "inline-end" }}>
-                (Apr 2014 – Mar 2015)
-              </span>
-            </p>
-            <p className="details">
-              Intermediate (PCM) - <b>76%</b>
-            </p>
-          </div>
-          <div className="subsection">
-            <p className="institution">
-              SKD Academy School, Rajajipuram
-              <span className="location" style={{ float: "inline-end" }}>
-                (Apr 2012 – Mar 2013)
-              </span>
-            </p>
-            <p className="details">
-              High School - <b>69%</b>
+              BACHELOR OF TECHNOLOGY - <b>7.8</b>
             </p>
           </div>
         </div>
-      </section>
-
-      {/* Soft Skills Section */}
-      <section className="section">
-        <h2 className="section-title">Soft Skills</h2>
-        <ul className="bullet-list">
-          <li>Team Collaboration</li>
-          <li>Problem-solving</li>
-          <li>Time Management</li>
-          <li>Self-motivation</li>
-          <li>Attention to Detail</li>
-        </ul>
-      </section>
-      {/* Languages Section */}
-      <section className="section">
-        <h2 className="section-title">Languages</h2>
-        <p>Hindi, English</p>
-        {/* <ul className="bullet-list">
-               <li></li>
-            </ul> */}
       </section>
     </div>
   );
