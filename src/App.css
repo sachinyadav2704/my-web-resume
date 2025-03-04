@@ -14,36 +14,39 @@ body {
 
 .resume-header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .resume-header h1 {
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .resume-header p {
   font-size: 14px;
+  margin: 6px;
 }
 
 .section {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .section-title {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
+  padding-bottom: 6px;
 }
 
 .subsection {
-  margin-bottom: 15px;
+  /* margin-bottom: 16px; */
 }
 
 .institution {
   font-weight: bold;
+  margin-bottom: 6px;
 }
 
 .location {
@@ -53,14 +56,15 @@ body {
 }
 
 .details {
-  margin: 5px 0;
+  margin: 6px 0;
 }
 
 .bullet-list {
   list-style-type: disc;
   padding-left: 20px;
+  margin-top: 6px;
 }
 
 .bullet-list li {
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }

@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import './App.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaLocationDot } from 'react-icons/fa6';
+import { IoMdCall, IoMdMail } from 'react-icons/io';
 
 const App = () => {
    return (
@@ -16,10 +18,47 @@ const App = () => {
             >
                SACHIN YADAV
             </h1>
-            <h4 className="name">MERN Developer</h4>
+            {/* <h4 className="name">MERN Developer</h4> */}
             <p>
-               Bengaluru, KA(IN) | +91 9321704313 | <a href="mailto:sachin2704.yadav@gmail.com">sachin2704.yadav@gmail.com</a>
-               <br />
+               <span
+                  style={{
+                     display: 'flex',
+                     alignItems: 'center',
+                     justifyContent: 'center',
+                     marginTop: '8px',
+                  }}
+               >
+                  <FaLocationDot
+                     style={{
+                        cursor: 'pointer',
+                        marginTop: '2px',
+                        marginRight: '0.4rem',
+                        fontSize: '1.2rem',
+                     }}
+                  />{' '}
+                  Bengaluru, KA(IN)
+                  <IoMdCall
+                     style={{
+                        cursor: 'pointer',
+                        marginTop: '2px',
+                        marginRight: '0.4rem',
+                        fontSize: '1.2rem',
+                        marginLeft: '1.5rem',
+                     }}
+                  />{' '}
+                  +91 9321704313
+                  <IoMdMail
+                     style={{
+                        cursor: 'pointer',
+                        marginTop: '2px',
+                        marginRight: '0.4rem',
+                        marginLeft: '1.5rem',
+                        fontSize: '1.2rem',
+                     }}
+                  />{' '}
+                  <a href="mailto:sachin2704.yadav@gmail.com">sachin2704.yadav@gmail.com</a>
+               </span>
+               {/* <br /> */}
                <span
                   style={{
                      display: 'flex',
@@ -72,37 +111,12 @@ const App = () => {
             <h2 className="section-title">Summary</h2>
             <div className="section-content">
                <p>
-                  Results-driven MERN developer with over 4 years of expertise in designing, developing, and optimizing scalable web applications. Skilled in
-                  JavaScript, React.js, Node.js, MongoDB, and MySQL. Consistently delivers high-performing solutions that enhance user experiences and drive
-                  business growth. Experienced in mentoring teams, integrating complex APIs, and implementing reusable components to streamline development
-                  processes. Passionate about leveraging cutting-edge technologies to deliver impactful solutions in fast-paced environments.
+                  Results-driven MERN Developer with 4+ years of experience in building scalable web applications, optimizing performance by 40% and enhancing
+                  user engagement by 20%. Proficient in JavaScript, React.js, Node.js, MongoDB, and MySQL, with expertise in API integrations and reusable
+                  components, reducing development time by 30%. Skilled in mentoring teams and driving efficient, high-impact solutions in fast-paced agile
+                  environments.
                </p>
             </div>
-         </section>
-
-         {/* Technical Skills Section */}
-         <section className="section">
-            <h2 className="section-title">Technical Skills</h2>
-            <ul className="bullet-list">
-               <li>
-                  <b>Frontend - </b>React.js, Redux, TypeScript, JavaScript (ES6+), React Native (Expo), HTML, CSS, REST API Integration
-               </li>
-               <li>
-                  <b>Backend - </b>Node.js, Express.js, REST API Development
-               </li>
-               <li>
-                  <b>Database - </b>MongoDB (NoSQL), MySQL
-               </li>
-               <li>
-                  <b>Frameworks - </b>Ant Design, Material UI, Tailwind CSS
-               </li>
-               <li>
-                  <b>Tools - </b>Git, Postman, DevOps, VS Code
-               </li>
-               <li>
-                  <b>Others - </b>JWT, OAuth2.0, API Design
-               </li>
-            </ul>
          </section>
 
          {/* Work Experience Section */}
@@ -111,31 +125,56 @@ const App = () => {
             <div className="section-content">
                <div className="subsection">
                   <p className="institution">
-                     Jio Platforms Limited{' '}
+                     FullStack Developer - Jio Platforms Limited
                      <span className="location" style={{ float: 'inline-end' }}>
-                        Aug 2020 – Present
+                        Sep 2023 – Present
                      </span>
                   </p>
-                  <p className="details">
+                  {/* <p className="details">
                      <strong>MERN Developer</strong>
-                  </p>
+                  </p> */}
                   <ul className="bullet-list">
                      <li>
-                        Orchestrated the design and development of scalable web applications like Jio Unified Ads, Jio Reels, and Jio Fit, delivering projects
-                        on time and exceeding performance benchmarks.
+                        Designed and developed CRUD APIs for JioFit’s Admin panel, streamlining data management and enhancing system efficiency, leading to a
+                        30% reduction in response time for database operations.
                      </li>
+                     <li>
+                        Implemented OAuth2.0 authentication and Role-Based Access Control (RBAC), ensuring secure user access and preventing unauthorized entry,
+                        resulting in a significant improvement in application security and compliance.
+                     </li>
+                     <li>
+                        Optimized backend workflows and database queries, enhancing API performance by 30%, reducing server load, and improving the overall
+                        scalability of the system using Node.js, Express.js, and MongoDB.
+                     </li>
+                     <li>
+                        Developed a structured custom error-handling system across all JioFit APIs, enabling faster debugging and issue resolution, which
+                        reduced error response time by 50% and improved API reliability.
+                     </li>
+                     {/* <li>Implemented Role-Based Access Control (RBAC) to ensure only authorized users could access specific application features.</li> */}
+                  </ul>
+               </div>
+            </div>
+            <div className="section-content">
+               <div className="subsection">
+                  <p className="institution">
+                     React Developer - Jio Platforms Limited
+                     <span className="location" style={{ float: 'inline-end' }}>
+                        Aug 2020 – Aug 2023
+                     </span>
+                  </p>
+                  {/* <p className="details">
+                     <strong>MERN Developer</strong>
+                  </p> */}
+                  <ul className="bullet-list">
+                     <li>
+                        Orchestrated the design and development of scalable web applications like Jio Unified Ads, Jio Reels, and JAMP, delivering projects on
+                        time and exceeding performance benchmarks.
+                     </li>
+                     <li>Migrated the UI library from Material UI to Ant Design, boosting UI responsiveness by 30% and improving overall performance.</li>
+                     <li>Refactored and modernized legacy codebases, modularizing components and reducing overall code complexity by 40%.</li>
                      <li>
                         Implemented reusable React.js components, cutting down redundant code by 25% and improving UI consistency across all Jio web platforms.
                      </li>
-                     <li>
-                        Spearheaded the custom error code integration across all JioFit APIs, reducing debugging time by 50% and enhancing error tracking
-                        efficiency.
-                     </li>
-                     <li>
-                        Architected the backend workflows for projects like Jio Unified Ads, optimizing API performance by 30% using Node.js, Express.js, and
-                        MongoDB.
-                     </li>
-                     <li>Enhanced user authentication systems by implementing OAuth2.0 and JWT, ensuring robust and secure access for millions of users.</li>
                      <li>
                         Led the development of Jio Reels (Instreamo), including core modules like landing pages and channel management, focusing on seamless API
                         integration and scalability.
@@ -162,9 +201,9 @@ const App = () => {
                      >
                         JioFit - Fitness App
                      </span>
-                     <span className="location" style={{ float: 'inline-end' }}>
+                     {/* <span className="location" style={{ float: 'inline-end' }}>
                         Aug 2024 – Present
-                     </span>
+                     </span> */}
                   </p>
                   <ul className="bullet-list">
                      <li>
@@ -188,9 +227,9 @@ const App = () => {
                      <span style={{ cursor: 'pointer' }} onClick={() => window.open('https://portal-g.instreamo.jio.com/', '_blank')}>
                         Jio Reels (Instreamo)
                      </span>
-                     <span className="location" style={{ float: 'inline-end' }}>
+                     {/* <span className="location" style={{ float: 'inline-end' }}>
                         Jun 2023 – Aug 2024
-                     </span>
+                     </span> */}
                   </p>
                   <ul className="bullet-list">
                      <li>A server-side ad insertion (SSAI) platform enabling seamless API integrations with ad publishers.</li>
@@ -209,15 +248,14 @@ const App = () => {
                      <span style={{ cursor: 'pointer' }} onClick={() => window.open('https://jioads.jio.com/', '_blank')}>
                         Jio Unified Ads
                      </span>
-                     <span className="location" style={{ float: 'inline-end' }}>
+                     {/* <span className="location" style={{ float: 'inline-end' }}>
                         Feb 2021 – May 2023
-                     </span>
+                     </span> */}
                   </p>
                   <ul className="bullet-list">
                      <li>A centralized platform enabling Jio users to create and manage ad campaigns across platforms like MyJio and Jio Pages.</li>
                      <li>
-                        <b>Role - </b>Developed and optimized core features using React.js and Node.js, focusing on performance, flexibility, and user-centric
-                        design.
+                        <b>Role - </b>Developed and optimized core features using React.js, focusing on performance, flexibility, and user-centric design.
                      </li>
                      <li>
                         <b>Outcome - </b>Streamlined the campaign creation process, reducing the time to launch ads by 20%.
@@ -227,9 +265,9 @@ const App = () => {
                <div className="subsection">
                   <p className="institution">
                      JAMP
-                     <span className="location" style={{ float: 'inline-end' }}>
+                     {/* <span className="location" style={{ float: 'inline-end' }}>
                         Nov 2020 – Dec 2022
-                     </span>
+                     </span> */}
                   </p>
                   <ul className="bullet-list">
                      <li>An internal portal for managing audiences across various Jio applications, streamlining workflows and enhancing data management.</li>
@@ -258,46 +296,32 @@ const App = () => {
                      BACHELOR OF TECHNOLOGY - <b>78%</b>
                   </p>
                </div>
-               <div className="subsection">
-                  <p className="institution">
-                     SKD Academy School, Rajajipuram
-                     <span className="location" style={{ float: 'inline-end' }}>
-                        (Apr 2014 – Mar 2015)
-                     </span>
-                  </p>
-                  <p className="details">
-                     Intermediate (PCM) - <b>76%</b>
-                  </p>
-               </div>
-               <div className="subsection">
-                  <p className="institution">
-                     SKD Academy School, Rajajipuram
-                     <span className="location" style={{ float: 'inline-end' }}>
-                        (Apr 2012 – Mar 2013)
-                     </span>
-                  </p>
-                  <p className="details">
-                     High School - <b>69%</b>
-                  </p>
-               </div>
             </div>
          </section>
-
-         {/* Soft Skills Section */}
+         {/* Technical Skills Section */}
          <section className="section">
-            <h2 className="section-title">Soft Skills</h2>
+            <h2 className="section-title">Technical Skills</h2>
             <ul className="bullet-list">
-               <li>Team Collaboration</li>
-               <li>Problem-solving</li>
-               <li>Time Management</li>
-               <li>Self-motivation</li>
-               <li>Attention to Detail</li>
+               {/* <b>Frontend - </b>React.js, Redux, TypeScript, JavaScript (ES6+), React Native (Expo), HTML, CSS, REST API Integration */}
+               <li>
+                  <b>Frontend - </b>React.js, Redux, JavaScript (ES6+), TypeScript, HTML, CSS, REST API Integration
+               </li>
+               <li>
+                  <b>Backend - </b>Node.js, Express.js, REST API Development
+               </li>
+               <li>
+                  <b>Database - </b>MongoDB (NoSQL), MySQL
+               </li>
+               <li>
+                  <b>Frameworks - </b>Ant Design, Material UI, Tailwind CSS
+               </li>
+               <li>
+                  <b>Tools - </b>Git, Postman, DevOps, VS Code
+               </li>
+               <li>
+                  <b>Others - </b>JWT, OAuth2.0, API Design
+               </li>
             </ul>
-         </section>
-         {/* Languages Section */}
-         <section className="section">
-            <h2 className="section-title">Languages</h2>
-            <p>Hindi, English</p>
          </section>
       </div>
    );
