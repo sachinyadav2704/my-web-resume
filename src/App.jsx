@@ -25,7 +25,7 @@ const App = () => {
                      display: 'flex',
                      alignItems: 'center',
                      justifyContent: 'center',
-                     marginTop: '8px',
+                     marginTop: '6px',
                   }}
                >
                   <FaLocationDot
@@ -64,7 +64,7 @@ const App = () => {
                      display: 'flex',
                      alignItems: 'center',
                      justifyContent: 'center',
-                     marginTop: '8px',
+                     marginTop: '6px',
                   }}
                >
                   <FaGithub
@@ -110,11 +110,11 @@ const App = () => {
          <section className="section">
             <h2 className="section-title">Summary</h2>
             <div className="section-content">
-               <p>
-                  Results-driven MERN Developer with 4+ years of experience in building scalable web applications, optimizing performance by 40% and enhancing
-                  user engagement by 20%. Proficient in JavaScript, React.js, Node.js, MongoDB, and MySQL, with expertise in API integrations and reusable
-                  components, reducing development time by 30%. Skilled in mentoring teams and driving efficient, high-impact solutions in fast-paced agile
-                  environments.
+               <p style={{ margin: '6px 0' }}>
+                  Results-driven <strong>MERN Developer</strong> with 4+ years of experience in building scalable web applications, optimizing performance by
+                  40% and enhancing user engagement by 20%. Proficient in <strong>JavaScript, React.js, Redux, Node.js</strong> and <strong>MongoDB</strong>{' '}
+                  with expertise in API integrations and reusable components, reducing development time by 30%. Skilled in mentoring teams and driving
+                  efficient, high-impact solutions in fast-paced agile environments.
                </p>
             </div>
          </section>
@@ -135,20 +135,24 @@ const App = () => {
                   </p> */}
                   <ul className="bullet-list">
                      <li>
-                        Designed and developed CRUD APIs for JioFit’s Admin panel, streamlining data management and enhancing system efficiency, leading to a
-                        30% reduction in response time for database operations.
+                        Designed and developed <strong>CRUD APIs</strong> for JioFit’s Admin panel, streamlining data management and enhancing system
+                        efficiency, leading to a 30% reduction in response time for database operations.
                      </li>
                      <li>
-                        Implemented OAuth2.0 authentication and Role-Based Access Control (RBAC), ensuring secure user access and preventing unauthorized entry,
-                        resulting in a significant improvement in application security and compliance.
+                        Implemented <strong>OAuth2.0 authentication</strong>, enabling secure user login and token-based access control, ensuring compliance
+                        with industry security standards.
+                     </li>
+                     <li>
+                        Developed and enforced <strong>Role-Based Access Control (RBAC)</strong>, restricting access to specific features based on user roles,
+                        enhancing data protection and preventing unauthorized actions.
                      </li>
                      <li>
                         Optimized backend workflows and database queries, enhancing API performance by 30%, reducing server load, and improving the overall
                         scalability of the system using Node.js, Express.js, and MongoDB.
                      </li>
                      <li>
-                        Developed a structured custom error-handling system across all JioFit APIs, enabling faster debugging and issue resolution, which
-                        reduced error response time by 50% and improved API reliability.
+                        Implemented a <strong>Custom Error Code system</strong>, reducing debugging time by 40% and improving error tracking efficiency across
+                        all JioFit APIs, leading to enhanced system reliability.
                      </li>
                      {/* <li>Implemented Role-Based Access Control (RBAC) to ensure only authorized users could access specific application features.</li> */}
                   </ul>
@@ -170,20 +174,37 @@ const App = () => {
                         Orchestrated the design and development of scalable web applications like Jio Unified Ads, Jio Reels, and JAMP, delivering projects on
                         time and exceeding performance benchmarks.
                      </li>
-                     <li>Migrated the UI library from Material UI to Ant Design, boosting UI responsiveness by 30% and improving overall performance.</li>
-                     <li>Refactored and modernized legacy codebases, modularizing components and reducing overall code complexity by 40%.</li>
                      <li>
-                        Implemented reusable React.js components, cutting down redundant code by 25% and improving UI consistency across all Jio web platforms.
+                        <strong>Developed the Dashboard module</strong> for <strong>JAMP and Jio Reels</strong>, enabling users to visualize analytics data
+                        through <strong>interactive charts and graphs</strong>, with advanced filtering options, improving data accessibility by 40%.
                      </li>
                      <li>
-                        Led the development of Jio Reels (Instreamo), including core modules like landing pages and channel management, focusing on seamless API
-                        integration and scalability.
+                        <strong>Developed the Analytics module</strong> for <strong>Jio Reels</strong>, allowing users to analyze data in a{' '}
+                        <strong>dynamic tabular format</strong>, where table columns adjusted <strong>dynamically based on applied filters</strong>, enhancing
+                        data representation and usability by 35%.
                      </li>
                      <li>
-                        Collaborated with cross-functional teams, ensuring agile delivery of high-performing applications, increasing development efficiency by
-                        35%.
+                        <strong>Migrated the UI library</strong> from <strong>Material UI to Ant Design</strong>, boosting UI responsiveness by 30% and
+                        improving overall performance.
                      </li>
-                     <li>Mentored 3+ junior developers, ensuring adherence to best coding practices and modern JavaScript (ES6+) standards.</li>
+                     <li>
+                        <strong>Refactored and modernized legacy codebases</strong>, modularizing components and reducing overall code complexity by 40%.
+                     </li>
+                     <li>
+                        <strong>Implemented reusable React.js components</strong>, cutting down redundant code by 25% and improving UI consistency across all
+                        Jio web platforms.
+                     </li>
+                     <li>
+                        <strong>Led the development of Jio Reels (Instreamo)</strong>, including core modules like landing pages and channel management,
+                        focusing on seamless API integration and scalability.
+                     </li>
+                     <li>
+                        <strong>Collaborated with cross-functional teams</strong>, ensuring agile delivery of high-performing applications, increasing
+                        development efficiency by 35%.
+                     </li>
+                     <li>
+                        <strong>Mentored 3+ junior developers</strong>, ensuring adherence to best coding practices and modern JavaScript (ES6+) standards.
+                     </li>
                   </ul>
                </div>
             </div>
