@@ -11,7 +11,7 @@ const App = () => {
          <header className="resume-header">
             <h1
                className="name"
-               onClick={() => window.open('https://sachin-yadav.netlify.app/', '_blank')}
+               onClick={() => window.open('https://sachin-yadav-portfolio-mern.netlify.app/', '_blank')}
                style={{
                   cursor: 'pointer',
                }}
